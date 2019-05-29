@@ -17,4 +17,17 @@
   <ItemGroup>
     <None Include="IOR-NodeMCU.ino" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.IOR-NodeMCU.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IORESP8266Client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IORESP8266Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

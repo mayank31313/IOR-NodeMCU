@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IOR-NodeMCU", "IOR-NodeMCU\IOR-NodeMCU.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinkedList-1.2.3", "..\..\..\Documents\Arduino\libraries\LinkedList-1.2.3\LinkedList-1.2.3.vcxitems", "{68464F3B-F2B6-4E07-9681-94276DFA65A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
