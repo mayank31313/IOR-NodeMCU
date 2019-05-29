@@ -33,7 +33,7 @@ Before starting make sure you have required libraries installed in your arduino 
 
 ### Create IOTClient object
 
-	IOTClient it_client(&client, CODE, TO, TOKEN);
+	IOTClient it_client(client, CODE, TO, TOKEN);
 
 ### Setup Client
 
