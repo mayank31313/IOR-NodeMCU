@@ -7,7 +7,25 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IOR-NodeMCU", "IOR-NodeMCU\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinkedList-1.2.3", "..\..\..\Documents\Arduino\libraries\LinkedList-1.2.3\LinkedList-1.2.3.vcxitems", "{68464F3B-F2B6-4E07-9681-94276DFA65A2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Servo", "..\..\..\..\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.1.0\libraries\Servo\Servo.vcxitems", "{BCDB7F7E-F1E7-47B8-B4AC-6344917254A2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IORESP8266", "IORESP8266\IORESP8266.vcxitems", "{3F72A4E2-3107-48E2-A3FE-B78E9EB76E07}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RC_Controller", "examples\RC_Controller\RC_Controller.vcxproj", "{68359854-C354-4216-9387-8195DB6AE2B9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tunneling", "Tunneling\Tunneling.vcxproj", "{8B60798F-2C63-4A7D-B2ED-53B30B10F119}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		IORESP8266\IORESP8266.vcxitems*{3f72a4e2-3107-48e2-a3fe-b78e9eb76e07}*SharedItemsImports = 9
+		IORESP8266\IORESP8266.vcxitems*{68359854-c354-4216-9387-8195db6ae2b9}*SharedItemsImports = 4
+		..\..\..\Documents\Arduino\libraries\LinkedList-1.2.3\LinkedList-1.2.3.vcxitems*{68464f3b-f2b6-4e07-9681-94276dfa65a2}*SharedItemsImports = 9
+		..\..\..\..\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.1.0\libraries\Servo\Servo.vcxitems*{8b60798f-2c63-4a7d-b2ed-53b30b10f119}*SharedItemsImports = 4
+		IORESP8266\IORESP8266.vcxitems*{8b60798f-2c63-4a7d-b2ed-53b30b10f119}*SharedItemsImports = 4
+		..\..\..\Documents\Arduino\libraries\LinkedList-1.2.3\LinkedList-1.2.3.vcxitems*{8b60798f-2c63-4a7d-b2ed-53b30b10f119}*SharedItemsImports = 4
+		..\..\..\..\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.1.0\libraries\Servo\Servo.vcxitems*{bcdb7f7e-f1e7-47b8-b4ac-6344917254a2}*SharedItemsImports = 9
+		IORESP8266\IORESP8266.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86
@@ -17,6 +35,14 @@ Global
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+		{68359854-C354-4216-9387-8195DB6AE2B9}.Debug|x86.ActiveCfg = Debug|Win32
+		{68359854-C354-4216-9387-8195DB6AE2B9}.Debug|x86.Build.0 = Debug|Win32
+		{68359854-C354-4216-9387-8195DB6AE2B9}.Release|x86.ActiveCfg = Release|Win32
+		{68359854-C354-4216-9387-8195DB6AE2B9}.Release|x86.Build.0 = Release|Win32
+		{8B60798F-2C63-4A7D-B2ED-53B30B10F119}.Debug|x86.ActiveCfg = Debug|Win32
+		{8B60798F-2C63-4A7D-B2ED-53B30B10F119}.Debug|x86.Build.0 = Debug|Win32
+		{8B60798F-2C63-4A7D-B2ED-53B30B10F119}.Release|x86.ActiveCfg = Release|Win32
+		{8B60798F-2C63-4A7D-B2ED-53B30B10F119}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

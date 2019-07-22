@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="IOR-NodeMCU.ino" />
+    <None Include="RC_Controller.ino" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="__vm\.IOR-NodeMCU.vsarduino.h">
+    <ClInclude Include="__vm\.RC_Controller.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

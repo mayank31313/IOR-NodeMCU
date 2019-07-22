@@ -5,7 +5,11 @@
  Created:	5/29/2019 4:22:36 PM
  Author:	Mayank
 */
-#include "IORESP8266Client.h"
+
+#include <LinkedList.h>
+#include <ESP8266WiFi.h>
+#include <IORESP8266.h>
+
 // the setup function runs once when you press reset or power the board
 
 WiFiClient wifi;
@@ -30,7 +34,7 @@ void setup() {
 
 // the loop function runs over and over again until power down or reset
 void loop() {
-	client.wait4Data();
+	client.wait4Data(false);
 }
 
 void onReceive(const String& message) {
